@@ -339,7 +339,7 @@ uint8_t serial_tail;
 
 uint8_t hopcount;
 
-void setup()
+void openLRSNGsetup()
 {
   //LEDs
   pinMode(Green_LED, OUTPUT);
@@ -434,7 +434,7 @@ void checkSerial()
 }
 
 //############ MAIN LOOP ##############
-void loop()
+void Read_OpenLRSNG_RC()
 {
   uint32_t time;
 

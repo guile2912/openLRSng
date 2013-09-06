@@ -323,7 +323,7 @@ void buzzerOn(uint16_t freq)
 #define PPM_OUT 9 // OCP1A
 #define RSSI_OUT 3 // PD3 OC2B
 
-#define OUTPUTS 13 // outputs available
+#define OUTPUTS 0 // outputs available WII : will manage the outputs 
 
 const pinMask_t OUTPUT_MASKS[OUTPUTS] = {
   {0x00,0x00,0x08},{0x00,0x00,0x20},{0x00,0x00,0x40}, // RSSI, CH1, CH2
@@ -545,7 +545,7 @@ void buzzerOn(uint16_t freq)
 #define PWM_3 3 // PD3 - also RSSI
 #define PWM_4 A5 // PC5 - also SCL
 
-#define OUTPUTS 6 // outputs available
+#define OUTPUTS 0 // outputs available WII : will manage the outputs 
 
 const pinMask_t OUTPUT_MASKS[OUTPUTS] = {
   {0x02,0x00,0x00}, {0x00,0x10,0x00}, {0x00,0x00,0x08},// CH1/PPM, CH2/SDA, CH3/RSSI
